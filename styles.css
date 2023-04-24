@@ -1,0 +1,129 @@
+body{
+    margin: 0%;
+}
+nav{
+    padding-top : 20px;
+}
+li{
+    list-style: none;
+   font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.randomColor{
+    
+    height: 100vh;
+    text-align: center;
+ 
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.ColorChangeRandom{
+    margin: 10%;
+}
+.ColorChangeRandomText{
+    font-size: 40px;
+    word-spacing: 5px;
+}
+
+#ColorChangeButton{ 
+    height: 100vh;
+    text-align: center;
+}
+.ColorChangeButtonHeading{
+    padding: 10%;
+    padding-top: 50px;
+    margin: 0%;
+}
+.ColorChangeButtonText{
+    font-size:40px;
+    white-space: 5px;
+}
+
+.ColorChange{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #F89588;
+    border: 0px;
+    color: white;
+    font-size: large;
+}
+
+
+#ColorChangeColorPicker{
+    height: 100vh;
+   
+    text-align: center;
+}
+.ColorChangeColorPickerHeading{
+    padding: 10%;
+    padding-top: 50px;
+    margin: 0%;
+}
+.ColorChangeColorPickerText{
+    font-size: 30px;
+    white-space: 5px;
+}
+input[type="color"]{
+    border: 0px;
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+    margin: 10px;
+ 
+}
+
+#ColorPalette{
+    text-align: center;
+    
+}
+.ColorPalettes{
+    display: flex;
+    flex-direction: row;
+}
+
+.color {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+
+@media screen and (max-width: 567px){
+    .color{
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+    .ColorChangeRandom{
+        padding-top: 200px;
+    }
+    .ColorChangeColorPickerHeading{
+        padding-top: 150px;
+    }
+    .ColorChangeButtonHeading{
+        padding-top: 200px;
+    }
+    li{
+        font-size: 20px;
+        margin: 0%;
+    }
+    ul{
+        margin: 0px;
+        padding: 0%;
+    }
+}
